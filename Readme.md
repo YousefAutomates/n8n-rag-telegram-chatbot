@@ -10,7 +10,6 @@
 [![Groq](https://img.shields.io/badge/Groq-Whisper_%2B_Llama_3.3-F55036?logo=groq&logoColor=white)](https://groq.com)
 [![Telegram](https://img.shields.io/badge/Telegram-Bot_API-26A5E4?logo=telegram&logoColor=white)](https://core.telegram.org/bots/api)
 [![WhatsApp](https://img.shields.io/badge/WhatsApp-Business_Cloud_API-25D366?logo=whatsapp&logoColor=white)](https://developers.facebook.com/docs/whatsapp)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 ---
 
