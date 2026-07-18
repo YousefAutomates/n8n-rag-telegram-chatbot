@@ -166,33 +166,7 @@ The system is composed of **three fully decoupled pipelines** with zero cross-pi
 
 ---
 
-## 📁 Repository Structure
 
-```
-.
-├── workflows/
-│   ├── ingestion_pipeline.json
-│   ├── retrieval_chat_pipeline.json
-│   └── global_error_handler.json
-├── supabase/
-│   └── schema.sql              # documents, chunks, users, chat_history, error_logs
-├── dashboard/                  # admin UI (documents, users, roles, error logs)
-├── docs/
-│   └── architecture.md
-└── README.md
-```
-
----
-
-## 🚀 Quick Start
-
-1. **Provision Supabase** and run `supabase/schema.sql`.
-2. **Import the three n8n workflows** from `workflows/`.
-3. **Configure credentials** (env vars): `GROQ_API_KEY`, `COHERE_API_KEY`, `LLAMA_PARSE_API_KEY`, `SUPABASE_URL`, `SUPABASE_KEY`, `TELEGRAM_BOT_TOKEN`, `WHATSAPP_TOKEN`, `WEBHOOK_API_KEY`.
-4. **Create Google Drive folders** (`General`, `HR`, …) and link them to the ingestion workflow.
-5. **Register users** with roles in the dashboard (or via the users table).
-6. **Drop a PDF** into a Drive folder → watch the Telegram admin notification arrive in ~60s.
-7. **Chat** with the bot on Telegram or WhatsApp — text or voice.
 
 ---
 
